@@ -1,0 +1,2 @@
+# Message with coords
+tellraw @s [{"text":"You died at "}, {"score":{"name":"@s","objective":"coords_x"}, "color":"blue"}, {"text":" "}, {"score":{"name":"@s","objective":"coords_y"}, "color":"blue"}, {"text":" "}, {"score":{"name":"@s","objective":"coords_z"}, "color":"blue"}]
